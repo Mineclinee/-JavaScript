@@ -20,7 +20,8 @@ for (let i = 0; i < 2; i++) {
         console.log('Work!');
         appData.expenses[a] = b;
     } else {
-
+        console.log('bad result');
+        i--;
     }
 }
 appData.moneyPerDay = appData.budget / 30;
